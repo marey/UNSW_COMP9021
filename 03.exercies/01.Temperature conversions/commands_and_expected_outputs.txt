@@ -1,0 +1,16 @@
+TEST 1 BEGIN
+$ python3 celsius_to_fahrenheit.py
+Celsius	Fahrenheit
+      0	        32
+     10	        50
+     20	        68
+     30	        86
+     40	       104
+     50	       122
+     60	       140
+     70	       158
+     80	       176
+     90	       194
+    100	       212
+TEST 1 END
+

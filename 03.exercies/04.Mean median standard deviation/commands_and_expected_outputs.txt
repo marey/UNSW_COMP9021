@@ -1,0 +1,51 @@
+TEST 1 BEGIN
+$ echo -e '0\n1' | python3 mean_median_standard_deviation.py
+Input a seed for the random number generator: 0
+How many elements do you want to generate? 1
+
+The list is: [-1]
+
+The mean is -1.00.
+The median is -1.00.
+The standard deviation is 0.00.
+
+Confirming with functions from the statistics module:
+The mean is -1.00.
+The median is -1.00.
+The standard deviation is 0.00.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo -e '1\n8' | python3 mean_median_standard_deviation.py
+Input a seed for the random number generator: 1
+How many elements do you want to generate? 8
+
+The list is: [-33, 22, 47, -42, -18, -35, 13, 47]
+
+The mean is 0.12.
+The median is -2.50.
+The standard deviation is 34.41.
+
+Confirming with functions from the statistics module:
+The mean is 0.12.
+The median is -2.50.
+The standard deviation is 34.41.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo -e '2\n13' | python3 mean_median_standard_deviation.py
+Input a seed for the random number generator: 2
+How many elements do you want to generate? 13
+
+The list is: [-43, -39, -40, -4, -29, 44, 35, -11, -18, 27, -23, 27, -46]
+
+The mean is -9.23.
+The median is -18.00.
+The standard deviation is 30.92.
+
+Confirming with functions from the statistics module:
+The mean is -9.23.
+The median is -18.00.
+The standard deviation is 30.92.
+TEST 3 END
+

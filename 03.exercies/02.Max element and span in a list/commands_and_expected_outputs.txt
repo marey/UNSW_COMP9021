@@ -1,0 +1,22 @@
+TEST 1 BEGIN
+$ echo -e '0\n8' | python3 span.py
+Input a seed for the random number generator: 0
+How many elements do you want to generate? 8
+
+The list is: [49, 97, 53, 5, 33, 65, 62, 51]
+
+The maximum difference between largest and smallest values in this list is: 92
+Confirming with builtin operations: 92
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo -e '1\n12' | python3 span.py
+Input a seed for the random number generator: 1
+How many elements do you want to generate? 12
+
+The list is: [17, 72, 97, 8, 32, 15, 63, 97, 57, 60, 83, 48]
+
+The maximum difference between largest and smallest values in this list is: 89
+Confirming with builtin operations: 89
+TEST 2 END
+
